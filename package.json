@@ -1,0 +1,27 @@
+{
+  "name": "nodejsbasicbuild",
+  "version": "1.0.0",
+  "description": "simple run through of node js basics for practicing builds / setup and referencing.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modern-sapien/nodejsbasicbuild.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modern-sapien/nodejsbasicbuild/issues"
+  },
+  "homepage": "https://github.com/modern-sapien/nodejsbasicbuild#readme",
+  "dependencies": {
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
